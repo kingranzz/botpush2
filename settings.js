@@ -5,7 +5,7 @@ const chalk = require('chalk')
 
 global.owner = ['6282393734303']
 global.name = 'Ranz-'
-global.JEDA = 5000  // Ganti Sesuai Keinginan (5000ms = 5 detik) jadi jedanya 5 detik
+global.JEDA = 60000  // Ganti Sesuai Keinginan (5000ms = 5 detik) jadi jedanya 5 detik
 global.pairing = true // true / false ; true = menggunakan pairing code &  false = menggunakan qr code
 
 let file = require.resolve(__filename)
